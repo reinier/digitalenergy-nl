@@ -7,3 +7,8 @@
 @import "bitters/base";
 
 @import "welcome";
+
+article {
+  max-width: 900px;
+  margin: 3em auto;
+}
