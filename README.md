@@ -1,8 +1,6 @@
-# Static website boilerplate
+# Website for digitalenergy.nl
 
-Boilerplate for static websites with support for publishing to github-pages.
-
-## Inside this boilerplate
+## Inside
 - [Sass](http://sass-lang.com) parser with:
   - [Bourbon](http://bourbon.io)
   - [Neat](http://neat.bourbon.io)
