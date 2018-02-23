@@ -1,0 +1,294 @@
+body {
+	font-family: "freight-sans-pro", sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+a, a:visited, a:active {
+	color: #3333ec;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+ul {
+	margin: 1em 0;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.6em;
+	margin: 0;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.1em;
+	margin: 0 0 1em 0;
+
+	em {
+		font-size: 0.9em;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.2em;
+	color: #777;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+#header {
+	padding: 20px 0 30px 0;
+	color: #555;
+	text-align: center;
+	border-bottom: 1px dashed #e2e2e2;
+}
+
+div.whats-it-all-about {
+	font-size: 4em;
+	padding: 20px 0;
+	font-family: "chaparral-pro-subhead",sans-serif;
+	font-weight: bold;
+	text-align: center;
+	word-spacing: 0.1em;
+	color:#ce0936;
+}
+
+div.whats-it-all-about .link-websitesenapps {
+	word-spacing: 0;
+}
+
+div.whats-it-all-about a {
+	color: #ce0936;
+}
+
+#whats-it-all-about-wrap .popup {
+	padding: 40px 30px;
+	background-color: #ededed;
+	border-radius: 5px;
+}
+
+.popup {
+	.popupcontent {
+		position: relative;
+		padding: 10px 10px 10px 180px;
+		display: block;
+		font-size: 20px;
+		min-height: 120px;
+	}
+}
+
+.profiel-foto {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.profiel-foto img, .content-duiding, .img_content {
+	-webkit-box-shadow: 0px 1px 2px rgba(50, 50, 51, 0.7);
+	-moz-box-shadow:    0px 1px 2px rgba(50, 50, 51, 0.7);
+	box-shadow:         0px 1px 2px rgba(50, 50, 51, 0.7);
+	border: 5px solid #fff;
+}
+
+#logos-clients {
+	text-align: center;
+
+	h3 {
+		font-weight: normal;
+		font-size: 1.5em;
+		line-height: 1.3em;
+	}
+}
+
+.content-duiding {
+	margin: 15px 0 10px 0;
+}
+
+#maincontent {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+div#excerpt {
+	width: 320px;
+	float: right;
+	border-left : 1px solid #ededed;
+	padding: 0 0 0 22px;
+	line-height: 1.4em;
+	font-size: 1em;
+}
+
+div#excerpt ul {
+	margin-left: 0;
+	padding-left: 25px;
+}
+
+div#excerpt ul li {
+	margin-bottom: 7px;
+}
+
+div#content {
+
+	padding-top: 16px;
+	width: 600px;
+	font-size: 1.4em;
+	font-weight: lighter;
+	line-height: 1.8em;
+}
+
+div#content strong {
+	font-weight: 500;
+}
+
+div#inhetkort-block,
+div#contact-block,
+div#functieomschrijving-block {
+	font-weight: normal;
+	margin: 2em 0;
+	-webkit-box-shadow: 0px 1px 2px rgba(50, 50, 51, 0.7);
+	-moz-box-shadow:    0px 1px 2px rgba(50, 50, 51, 0.7);
+	box-shadow:         0px 1px 2px rgba(50, 50, 51, 0.7);
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+div#functieomschrijving-block {
+	padding: 15px;
+	background-color: #B9FCFF;
+}
+
+div#functieomschrijving-block h3 {
+	font-size: 0.9em;
+}
+
+div#inhetkort-block {
+	padding: 15px 25px 15px 15px;
+	background-color: #d0ffb9;
+}
+
+div#contact-block {
+	padding: 15px;
+	background-color: #fffbae;
+}
+
+div#contact-block p {
+	margin: 0;
+}
+
+div#contact-block p.bedrijfsinfo {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+div.footer {
+	border-top: 1px solid #bebebe;
+	margin-top: 60px;
+	padding: 60px 10px;
+	font-size: 1.4em;
+	font-weight: lighter;
+	line-height: 1.8em;
+}
+
+/* Clearfix op container */
+
+.container
+
+.container:before,
+.container:after {
+	content:"";
+	display:table;
+}
+
+.container:after {
+	clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.container {
+	*zoom:1;
+}
+
+/* -----------------------------------------------------
+	iPad
+	----------------------------------------------------- */
+
+	@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px) {
+		.container {
+			width: 1026px;
+			margin: 0 auto;
+			padding: 0 33px;
+		}
+
+		#whats-it-all-about-wrap {
+			background: none;
+			-webkit-box-shadow: none;
+			-moz-box-shadow:    none;
+			box-shadow:         none;
+		}
+
+		#whats-it-all-about-wrap .container {
+			background: #f2f2f2;
+			-webkit-box-shadow: inset 0px -2px 1px rgba(0,0,0,0.3);
+			-moz-box-shadow:    inset 0px -2px 1px rgba(0,0,0,0.3);
+			box-shadow:         inset 0px -2px 1px rgba(0,0,0,0.3);
+		}
+
+		div#excerpt {
+			width: 342px;
+			float: right;
+			border-left : 1px solid #ededed;
+			padding: 0 0 0 45px;
+			line-height: 1.4em;
+			font-size: 1em;
+		}
+	}
+
+
+	/* V2 */
+
+	.img_content {
+		margin-right: 20px;
+		margin-bottom: 1em;
+		float: left;
+		height: 230px;
+	}
+
+	.img_content.third {
+		margin-right: 0;
+	}
+
+	.img_content p {
+		font-size: 0.65em;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		line-height: normal;
+	}
+
+	.img_content p .jaar {
+		font-weight: normal;
+	}
+
+	.img_content.highlight p {
+		font-size: 0.8em;
+	}
